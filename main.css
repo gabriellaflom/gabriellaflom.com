@@ -52,6 +52,35 @@ table {
 /*FONT RULES*/
 /*font-family: 'Oswald', sans-serif;*/
 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+	/*body {
+		max-width: 100%;
+		font-size: .25em;
+	}
+	.container {
+		max-width: 75%;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 1em;
+	}
+	.header img {
+		width: 150px;
+	}*/
+	#social img {
+		width: 10px;
+	}
+
+	#social li {
+	display: inline-block;
+	margin: 0 5px;
+	}
+}
+
 
 body {
 	font-family: 'Oswald', sans-serif;
@@ -59,8 +88,13 @@ body {
 	color: #fe5861;
 }
 
+a {
+	color: ##fe5861;
+}
+
+
 .container {
-	max-width: 550px;
+	max-width: 570px;
 	margin: 0 auto;
 	padding: 20px 20px;
 }
@@ -115,6 +149,11 @@ padding: 10px 0;
 	line-height: 1.5;
 }
 
+#bio a {
+	text-decoration: none;
+	color: #ed4489
+}
+
 #social {
 	list-style: none;
 	text-align: center;
@@ -129,4 +168,8 @@ padding: 10px 0;
 #social img {
 	width: 40px;
 	/*height*/
+}
+
+#social a:hover {
+	color: #fe5861;;
 }
