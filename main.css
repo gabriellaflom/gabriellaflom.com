@@ -183,3 +183,38 @@ padding: 10px 0;
 #social a:hover {
 	color: #fe5861;;
 }
+
+.skills {
+	line-height: 2;
+	margin-bottom: 200px;
+	padding-bottom: 100px;
+}
+
+.skills h2 {
+	text-align: center;
+}
+
+.skills-list {
+	text-decoration: none;
+	float: left;
+}
+
+.skills-list img {
+	width: 20px;
+}
+
+.skills-hearts{
+	float: right
+}
+.skills-hearts img {
+	width: 20px;
+}
+
+
+
+
+
+
+
+
+
