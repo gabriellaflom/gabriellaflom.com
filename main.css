@@ -154,6 +154,16 @@ padding: 10px 0;
 	color: #ed4489
 }
 
+.cv {
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+.cv img {
+	width: 40px;
+}
+
 #social {
 	list-style: none;
 	text-align: center;
